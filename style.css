@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 0%, 70%);
+    
+}
+h1{
+  font-weight:bolder;  
+  color: black;
+}
+h2{
+    font-weight: 400;
+
+}
+h3{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0rem 0.5rem 2rem;
+}
+p{
+    font-size: 0.8rem;
+    padding: 0rem 0rem 0rem 2rem
+    
+    
+}
+/* _________________________________________head */
+.firstbox{
+    margin: 0rem 0rem 4rem 0rem;
+    padding: 6% 7% 0% 7%;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+.head{
+    width: 35%;
+}
+.firstpara{
+    width: 35%;
+}
+/* _________________________________________ close head */
+/* ____________________________________________________________container */
+/* class */
+.container{
+    margin: 4rem 0rem 4rem 0rem;
+    padding: 0% 7% 0% 7%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.card{
+    
+    width: 96.5%;
+    height: 11rem;
+    /* align-items: center; */
+    /* border: 0.3rem solid rgb(156, 156, 156); */
+    border-radius: 0.4rem;
+    box-shadow: -0.5rem 0.5rem 1.5rem rgb(200, 200, 200);
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+.image{
+    width: 13%;
+    align-self:flex-end;
+    padding: 0rem;
+    margin: 1.5rem 1.5rem 2.5rem 0;
+    
+}
+.common{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    
+    background-color: #fff;
+}
+.carda{
+    border-top: 0.3rem solid hsl(0, 78%, 62%);
+}
+
+.cardb{
+    border-top: 0.3rem solid hsl(34, 97%, 64%);
+}
+.subpara{
+    width: 80%;
+    font-weight: bold;
+}
+
+/* ids */
+#item-1{
+    height: 11rem;
+    width: 30.33%;
+    /* border: 0.3rem solid rgb(156, 156, 156); */
+    border-top:0.3rem solid hsl(180, 62%, 55%);
+    align-self: center;
+    border-radius: 0.5rem;
+    box-shadow: -0.5rem 0.5rem 1.5rem rgb(200, 200, 200);
+}
+#item-2{
+    height: 26rem;
+    
+    width: 30.33%;
+}
+#item-3{
+    height: 11rem;
+    /* border: 0.3rem solid rgb(156, 156, 156); */
+    box-shadow: -0.5rem 0.5rem 1.5rem rgb(200, 200, 200);
+    border-top:0.3rem solid hsl(212, 86%, 64%);
+    width: 30.33%;
+    align-self: center;
+    border-radius: 0.4rem;
+}
+@media (max-width:980px){
+    .firstbox{
+        margin: 0rem 0rem 4rem 0rem;
+        padding: 8% 7% 0% 7%;
+        text-align: center;
+        line-height: 1.5;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 20rem;
+    }
+    .head{
+        width: 100%;
+    }
+    .firstpara{
+        width: 100%;
+    }
+    /* _________________________________________ close head */
+    /* ____________________________________________________________container */
+    /* class */
+    .container{
+        margin: 4rem 0rem 4rem 0rem;
+        padding: 0% 7% 0% 7%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        
+        width: 96.5%;
+        height: 11rem;
+        /* border: 0.3rem solid rgb(156, 156, 156); */
+        border-radius: 0.4rem;
+        
+        
+    }
+    .middle{
+        display: flex;
+        padding-top:3rem ;
+        padding-bottom:3rem ;
+    }
+    .image{
+        width: 10%;
+        align-self:flex-end;
+        margin: 1rem 1rem 2rem 0;
+    }
+    .common{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .subpara{
+        width: 60%;
+        font-weight: bold;
+    }
+    
+    /* ids */
+    #item-1{
+        height: 11rem;
+        width: 100%;
+        border-top:0.3rem solid hsl(180, 62%, 55%);
+        border-radius: 0.5rem;
+    }
+    #item-2{
+        height: 26rem;
+        
+        width: 100%;
+    }
+    #item-3{
+        height: 11rem;
+        border-top:0.3rem solid hsl(212, 86%, 64%);
+        width: 100%;
+        border-radius: 0.4rem;
+    }
+}
